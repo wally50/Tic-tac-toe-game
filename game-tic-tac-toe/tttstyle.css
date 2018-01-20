@@ -3,31 +3,31 @@
 }
 
 html {
-  background-color: #42413d;;
   display: flex;
   justify-content: center;
-
 }
+
 body {
   position: absolute;
   width: 90%;
-  height: 90%;
+  height: 95%;
   margin: auto;
-  margin-top: 2%;
+  margin-top: 1%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #b4b4b4;
+  background-image: url("board-game.jpg");
+  background-size: cover;
 }
 
 .head {
   width: 100%;
   height: 30%;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #b4b4b4;
 }
 
 img {
@@ -37,18 +37,78 @@ img {
 
 .game_name {
   width: 50%;
-  height: 60%;
+  height: 35%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
 .game_name h1 {
-  font-size: 48px;
+  color: white;
+  font-size: 80px;
 }
+
+.drawBox {
+  width: 100%;
+  height: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nought {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cross {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.drawDiv {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.draw {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+}
+
+.drawBox h2 {
+  font-size: 60px;
+  padding-top: 13px;
+}
+
+input {
+  height: 20%;
+  border: 2px solid black;
+  border-radius: 3px;
+  padding: 8px 8px 8px 8px;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.ipBoardReset {
+  background-color: #7ef430;
+  opacity: 0.7;
+}
+
 .table-top {
   width: 100%;
-  height: 60%;
+  height: 65%;
   display:flex;
   align-items: center;
   justify-content: space-around;
@@ -68,7 +128,6 @@ img {
   display: flex;
   flex-direction: row;
   justify-content: center;
-
 }
 
 .board div div {
@@ -77,15 +136,19 @@ img {
   border-style: ridge;
   border-color: black;
   border-width: 2px;
-  background-color: #ffce2b;
+  border-radius: 6px;
+  background-color: #7ef430;
+  background-repeat: no-repeat;
+  background-position: center;
   cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
+  opacity: 0.8;
 }
 
 .token_box {
-  width: 20%;
+  width: 30%;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -102,17 +165,44 @@ img {
 }
 
 div h2 {
-  font-size: 30px;
-  color: red;
+  font-size: 60px;
+  color: yellow;
   margin: 0;
 }
 
 div h1 {
-  font-size: 36px;
+  color: white;
+  font-size: 60px;
   margin: 0;
 }
 
+.winCount {
+  display: flex;
+  flex-direction: column;
+}
+
+h3 {
+  color: white;
+  font-size: 60px;
+  margin: 0
+}
+
+h5 {
+  color: white;
+  font-size: 60px;
+  margin: 0;
+}
+
+.winCount h3{
+  font-size: 50px:
+}
+
 .hidden {
+  margin: 0px;
+  display: none;
+}
+
+.hide {
   margin: 0px;
   display: none;
 }

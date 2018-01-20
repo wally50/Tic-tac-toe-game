@@ -10,19 +10,34 @@
       <div class="game_name">
         <h1>Tic Tac Toe</h1>
       </div>
+      <div class="drawBox">
+        <div class="nought">
+          <img src="images/nought.png" alt="">
+        </div>
+        <div class="drawDiv">
+          <h2 class="draw hide">DRAW</h2>
+        </div>
+        <div class="cross">
+          <img src="images/cross.png" alt="">
+        </div>
+      </div>
+      <div>
+        <input class="ipBoardReset" type="submit" value="Reset board">
+      </div>
     </section>
     <section class="table-top">
       <section class="token_box">
         <div class="playerOneHead">
           <h1>Player One</h1>
         </div>
-        <div class="">
-          <img src="images/nought.jpg" alt="">
-        </div>
         <div class="oneWinner">
           <h2 class="hidden">WINNER</h2>
         </div>
-        <div class="">
+        <div class="winCount">
+          <h3>Wins</h3>
+        </div>
+        <div class="winCounterOne">
+          <h5><span>0</span></h5>
         </div>
       </section>
       <section class="board">
@@ -55,25 +70,17 @@
         <div class="playerTwoHead">
           <h1>Player Two</h1>
         </div>
-        <div class="">
-          <img src="images/cross.jpg" alt="">
-        </div>
         <div class="twoWinner">
           <h2 class="hidden">WINNER</h2>
         </div>
-        <div class="">
+        <div class="winCount">
+          <h3>Wins</h3>
+        </div>
+        <div class="winCounterTwo">
+          <h5><span>0</span></h5>
         </div>
       </section>
     </section>
-
-
-
-
-
-
-
-
-
 
     <script src="tttapp.js"></script>
   </body>
