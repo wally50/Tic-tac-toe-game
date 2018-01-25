@@ -1,5 +1,4 @@
-# Tic-tac-toe-game
-
+Tic-tac-toe-game
 A basic tic tac toe game using HTML, CSS,and Javascript, with nested arrays and nested loops.
 
 A game for two players.
